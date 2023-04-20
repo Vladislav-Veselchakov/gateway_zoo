@@ -14,6 +14,6 @@ public class ZooController {
 
     @GetMapping("/animals/any")
     ResponseEntity<Animal> seeAnyAnimal(){
-        return randomAnimalClient.random();
+        return randomAnimalClient.random1();
     }
 }
